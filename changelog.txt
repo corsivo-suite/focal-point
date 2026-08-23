@@ -1,0 +1,20 @@
+= Unreleased — 23/08/2026 =
+* Rigenerati i bundle contro il package condiviso corrente, includendo il refresh visuale e gli asset RTL; contratti runtime invariati.
+
+= 1.2.2 — 22/08/2026 =
+* Interfacce block e classic migrate al `FocalPointControl` condiviso di Corsivo WP Admin UI.
+* Adapter esplicito tra coordinate controllate `0–1` e storage intero storico `0–100`, senza migrazioni dati o modifiche frontend.
+* Build consumer autonoma con manifest WordPress, CSS LTR/RTL, gate completo e fallback agli asset legacy.
+* Requisito WordPress allineato a 6.6 per il runtime JSX della build.
+* Test adapter, smoke asset e suite dominio verificati.
+
+= 1.2.0 — 13/07/2026 =
+* Autorizzazione dei meta per singolo post, validazione intera 0–100 e supporto corretto del valore zero.
+* Coordinate associate alla featured image per evitare dati obsoleti dopo la sostituzione del media.
+* Persistenza coordinata dei tre meta correnti, deduplicazione e rollback verificato in caso di errore parziale.
+* Picker WordPress nativo e accessibile da tastiera; editor classico sincronizzato col media frame e scelta editor rispettata per singolo post.
+* Rendering HTML tramite WP_HTML_Tag_Processor, limitato al primo tag immagine.
+* Impostazioni per post type, WooCommerce classico/FSE e WPML copy-once opt-in anche per traduzioni automatiche; integrazione Yoast senza modulo.
+* Coordinate incluse in revisioni e autosave WordPress con checksum di schema `1`; nessuna tabella log separata.
+* Cleanup opzionale cache-safe, supporto multisite, Update URI proprietario e protezione Apache per dotfile e archivi.
+

@@ -1,0 +1,8 @@
+.corsivo-focal-point-picker {
+	min-width: 0;
+}
+
+.corsivo-focal-point-classic .components-base-control,
+.corsivo-focal-point-classic .components-focal-point-picker-control {
+	min-width: 0;
+}

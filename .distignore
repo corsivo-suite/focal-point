@@ -1,0 +1,10 @@
+.git
+.gitignore
+.distignore
+*.zip
+tests
+admin-app/node_modules
+admin-app/src
+admin-app/tests
+admin-app/package.json
+admin-app/package-lock.json

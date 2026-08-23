@@ -1,0 +1,15 @@
+.corsivo-focal-point-picker .components-focal-point-picker-control {
+	margin-bottom: 12px;
+}
+
+.corsivo-focal-point-classic .components-focal-point-picker-control {
+	min-width: 0;
+}
+
+.corsivo-focal-point-classic .focal-point-picker__controls {
+	flex-wrap: wrap;
+}
+
+.corsivo-focal-point-classic .components-base-control {
+	min-width: 0;
+}

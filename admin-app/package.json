@@ -1,0 +1,30 @@
+{
+  "name": "corsivo-focal-point-admin-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Corsivo Focal Point editor interfaces.",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "wp-scripts build src/editor.js src/classic-editor.js --output-path=build",
+    "check": "npm run lint && npm test -- --runInBand && npm run build",
+    "lint": "wp-scripts lint-js src tests",
+    "start": "wp-scripts start src/editor.js src/classic-editor.js --output-path=build",
+    "test": "wp-scripts test-unit-js"
+  },
+  "dependencies": {
+    "@corsivo-suite/wp-admin-ui": "0.1.0",
+    "@wordpress/components": "39.0.0",
+    "@wordpress/data": "10.53.0",
+    "@wordpress/editor": "14.53.0",
+    "@wordpress/element": "8.5.0",
+    "@wordpress/icons": "15.4.0",
+    "@wordpress/i18n": "6.26.0",
+    "@wordpress/plugins": "7.53.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "34.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
